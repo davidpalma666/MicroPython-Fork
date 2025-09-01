@@ -1,0 +1,23 @@
+
+
+
+
+**********************************************
+* 26 Junho 2025
+*
+
+>> mudança na estrutura do projecto actual PyPhotometry
+
+	2. Micro Python Board em kit - é passar o esquemático PDF para KiCAD
+
+	3. juntar depois a PyBoard v.1.1 com pyPhotometry (nossa PCB); rever antes com o Filipe
+
+
+
+>> links iniciais enviados pelo Filepe:
+	PDF com PyBv.1.1 .pdf
+	https://store.micropython.org/product/PYBv1.1
+	https://micropython.org/download/PYBV11/
+	https://www.adafruit.com/product/2390
+	
+
