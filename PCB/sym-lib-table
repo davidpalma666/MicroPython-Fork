@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "PyBoard SymbLib")(type "KiCad")(uri "${KIPRJMOD}/PyBoard SymbLib.kicad_sym")(options "")(descr ""))
+  (lib (name "MicroPython SymbLib")(type "KiCad")(uri "${KIPRJMOD}/MicroPython SymbLib.kicad_sym")(options "")(descr ""))
 )

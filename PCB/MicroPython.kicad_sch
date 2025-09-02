@@ -3206,181 +3206,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Management:MIC2090-2YM5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.874 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MIC2090-2YM5"
-				(at 0.254 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 -19.304 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2090-1-Current-Limiting-Power-Distribution-Switches-DS20006611A.pdf"
-				(at -11.43 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-channel, high side, power distribution switch, 790mOhm Ron, latch-off on current limit, 1.8V-5.5V, 50 mA, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mosfet distribution current limit"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MIC2090-2YM5_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MIC2090-2YM5_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "FAULT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PyBoard SymbLib:FXLS8971CFR1"
+		(symbol "MicroPython SymbLib:FXLS8971CFR1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3400,7 +3226,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PyBoard FootprintLib:LQFN-12-3x3mm_P0.65mm"
+			(property "Footprint" "MicroPython FootprintLib:LQFN-12-3x3mm_P0.65mm"
 				(at 2.286 -18.542 0)
 				(effects
 					(font
@@ -3684,7 +3510,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PyBoard SymbLib:STM32F405RGT6"
+		(symbol "MicroPython SymbLib:STM32F405RGT6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4899,6 +4725,180 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_Management:MIC2090-2YM5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.874 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MIC2090-2YM5"
+				(at 0.254 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 -19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2090-1-Current-Limiting-Power-Distribution-Switches-DS20006611A.pdf"
+				(at -11.43 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-channel, high side, power distribution switch, 790mOhm Ron, latch-off on current limit, 1.8V-5.5V, 50 mA, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mosfet distribution current limit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MIC2090-2YM5_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MIC2090-2YM5_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "FAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -6486,22 +6486,9 @@
 		)
 		(uuid "35f1b657-8cb1-4411-9aa6-99e9585fc0c8")
 	)
-	(text "programming pins PA13 PA14 PA15 PB4 connected to LEDs\ntrouble??"
-		(exclude_from_sim no)
-		(at 252.984 100.584 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "39120547-739a-4816-990d-d089b077f0b2")
-	)
 	(text "Fit U3 for USB OTG. Vcc must be 5v"
 		(exclude_from_sim no)
-		(at 98.806 109.728 0)
+		(at 104.902 109.474 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6521,7 +6508,7 @@
 		)
 		(uuid "44b94f28-4bae-44e4-b20d-685dae1a1850")
 	)
-	(text "PA10-ID: USB ID\nsem conn nesta ficha\nafecta algo com o fw?"
+	(text "PA10-ID: USB 2.0 ID\nwith no pin conn on USB-C\nwill create USB fw-trouble?"
 		(exclude_from_sim no)
 		(at 274.066 88.138 0)
 		(effects
@@ -6529,6 +6516,7 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
+				(color 255 0 0 1)
 			)
 			(justify left)
 		)
@@ -6546,14 +6534,15 @@
 		)
 		(uuid "69a5d1ad-02e1-44f3-8e76-e85a4e4b67b3")
 	)
-	(text "rest of JTAG & SW debug available on bottom connector\nNote: LED resistors may need to be removed for debug (tbd)\n(note from v.1.1)"
+	(text "rest of JTAG & SW debug available on bottom connector\nNote: LED resistors may need to be removed for debug (tbd)\n(note from v.1.1)\n\nprogramming pins PA13 PA14 PA15 PB4 connected to LEDs\ntrouble??"
 		(exclude_from_sim no)
-		(at 233.934 46.736 0)
+		(at 241.554 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
+				(color 255 0 0 1)
 			)
 			(justify left)
 		)
@@ -6584,14 +6573,29 @@
 		)
 		(uuid "c0236d58-8e36-4e45-85f3-c765b3d66928")
 	)
-	(text ". original accelerometer\nNXP MMA7660 - obsolete \nstock=0\n\nnew one from same manufacturer:\nNXP FXLS8971CFR1\n\nsame I2C protocol? Seems so..\n"
+	(text ". 32kHz crystal used 'only' to SD-Card\n. since SD-card won't be used, does Crystal needs to be assmbled?\n. isn't OSC-pins needed to outher micro functionalities?\n"
 		(exclude_from_sim no)
-		(at 134.62 262.382 0)
+		(at 143.256 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c256ace1-924b-4fb4-8eae-7840710606d0")
+	)
+	(text ". original accelerometer\nNXP MMA7660 - obsolete \nstock=0\n\nnew one from same manufacturer:\nNXP FXLS8971CFR1\n\nsame I2C protocol? Seems so..\n"
+		(exclude_from_sim no)
+		(at 144.272 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 194 194 1)
 			)
 			(justify left)
 		)
@@ -7707,16 +7711,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 257.81) (xy 193.04 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "361fc992-3d9c-4f6a-a00a-3751afea9633")
-	)
-	(wire
-		(pts
 			(xy 344.17 175.26) (xy 344.17 160.02)
 		)
 		(stroke
@@ -8534,16 +8528,6 @@
 			(type default)
 		)
 		(uuid "70628577-1af7-4f31-b1d1-add7d846cce6")
-	)
-	(wire
-		(pts
-			(xy 132.08 250.19) (xy 160.02 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7135fea9-9410-4b82-930f-990ad08a2282")
 	)
 	(wire
 		(pts
@@ -10468,17 +10452,6 @@
 		)
 		(uuid "1097ccc3-8bf2-4325-8186-1bb62a1a4de8")
 	)
-	(label "PA12-DP"
-		(at 264.16 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "12888ff9-2038-4a7b-a1ae-e8f4a1bf22e6")
-	)
 	(label "N4"
 		(at 181.61 106.68 0)
 		(effects
@@ -10634,17 +10607,6 @@
 		)
 		(uuid "27f48e32-c252-4a06-a185-18340992823f")
 	)
-	(label "PA12-DP"
-		(at 102.87 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "282f5504-df56-41b8-9d86-18f72809f384")
-	)
 	(label "PB10-Y9"
 		(at 264.16 142.24 180)
 		(effects
@@ -10668,6 +10630,17 @@
 		)
 		(uuid "288e604a-5b70-48e8-b764-d135227116f0")
 	)
+	(label "USB_P"
+		(at 264.16 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ef81353-7da7-4b3d-a1b8-5e7df799a4d8")
+	)
 	(label "PA5-X6"
 		(at 392.43 200.66 180)
 		(effects
@@ -10689,17 +10662,6 @@
 			(justify right bottom)
 		)
 		(uuid "32067f02-03e1-47ad-9549-a9e78c49d9e5")
-	)
-	(label "PA11-DM"
-		(at 264.16 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "32da3893-47f6-4796-bf11-03a530764f4c")
 	)
 	(label "PB4-BLU-P2"
 		(at 339.09 160.02 270)
@@ -10755,6 +10717,17 @@
 			(justify right bottom)
 		)
 		(uuid "45bfdf70-0caf-4c8c-b3c5-f8fd187ee2a6")
+	)
+	(label "USB_N"
+		(at 264.16 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "492ead13-9f01-4e86-b47f-c8efdddd6d38")
 	)
 	(label "PB10-Y9"
 		(at 392.43 182.88 180)
@@ -10887,6 +10860,17 @@
 			(justify left bottom)
 		)
 		(uuid "5e5413e9-961c-42e5-861d-e5b597b2d6df")
+	)
+	(label "USB_P"
+		(at 102.87 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "5fac0ee1-697d-4187-807a-7a2e01c4c014")
 	)
 	(label "BOOT0"
 		(at 171.45 93.98 0)
@@ -11075,17 +11059,6 @@
 		)
 		(uuid "6ff37f7c-8e04-440d-ac84-4b654995ee18")
 	)
-	(label "PA11-DM"
-		(at 102.87 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "721cb1e2-462d-4d18-8b96-a13b7a3102b6")
-	)
 	(label "P9A"
 		(at 346.71 229.87 0)
 		(effects
@@ -11141,6 +11114,17 @@
 		)
 		(uuid "7bff7573-8226-405d-b414-1f0c7d6a7715")
 	)
+	(label "USB_N"
+		(at 102.87 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d530abb-cdb3-45d0-b395-0f1a1acbca8f")
+	)
 	(label "PA7-X8"
 		(at 392.43 195.58 180)
 		(effects
@@ -11194,17 +11178,6 @@
 			(justify right bottom)
 		)
 		(uuid "88ea3f32-97d9-4360-ab97-54342ff9053e")
-	)
-	(label "PB5-MMA_AVDD"
-		(at 193.04 257.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "89b504db-af52-46ef-8d6e-002350ee05fa")
 	)
 	(label "PA14-SWCLCK"
 		(at 229.87 248.92 0)
@@ -11304,17 +11277,6 @@
 			(justify left bottom)
 		)
 		(uuid "9744aaf8-4dbb-4731-8263-47e4fbb5214a")
-	)
-	(label "PB2-BOOT1-MMA-INT"
-		(at 132.08 250.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "977ed447-464c-4943-b587-4de781c5f585")
 	)
 	(label "~{RST}"
 		(at 306.07 205.74 0)
@@ -12159,76 +12121,6 @@
 			(project "PyBoard"
 				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 193.04 265.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "116bc126-6176-4484-8bc1-735ceca255d0")
-		(property "Reference" "C3"
-			(at 195.58 264.1662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2u2"
-			(at 195.58 266.7062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 193.04 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 193.04 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17a0b6e9-f86d-42d8-a385-dd3c7ec6bfca")
-		)
-		(pin "1"
-			(uuid "9ac8977e-88d5-4789-aed7-0f1f8a7c632f")
-		)
-		(instances
-			(project "PyBoard"
-				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -14242,7 +14134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PyBoard FootprintLib:47571-0001_MOL"
+		(property "Footprint" "MicroPython FootprintLib:47571-0001_MOL"
 			(at 346.964 53.848 0)
 			(effects
 				(font
@@ -14338,14 +14230,14 @@
 		)
 	)
 	(symbol
-		(lib_id "PyBoard SymbLib:FXLS8971CFR1")
+		(lib_id "MicroPython SymbLib:FXLS8971CFR1")
 		(at 172.72 240.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "398e3fce-3cbb-43bd-8388-44751c80c732")
 		(property "Reference" "U4"
 			(at 182.626 227.076 0)
@@ -14365,8 +14257,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PyBoard FootprintLib:LQFN-12-3x3mm_P0.65mm"
-			(at 168.91 240.03 0)
+		(property "Footprint" "MicroPython FootprintLib:LQFN-12-3x3mm_P0.65mm"
+			(at 170.434 258.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14375,7 +14267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 240.03 0)
+			(at 173.99 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14384,7 +14276,7 @@
 			)
 		)
 		(property "Description" "3-Axis Orientation/Motion Detection Sensor"
-			(at 168.91 240.03 0)
+			(at 172.72 256.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14393,7 +14285,7 @@
 			)
 		)
 		(property "MPN" "FXLS8971CFR1"
-			(at 177.8 240.03 0)
+			(at 187.198 261.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14402,7 +14294,7 @@
 			)
 		)
 		(property "OEPSPN" "TBD"
-			(at 177.8 240.03 0)
+			(at 192.532 263.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15228,7 +15120,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "4947924a-ac96-46ff-9d26-de6cba9d7a66")
 		(property "Reference" "C21"
@@ -17900,7 +17792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PyBoard SymbLib:STM32F405RGT6")
+		(lib_id "MicroPython SymbLib:STM32F405RGT6")
 		(at 217.17 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18733,7 +18625,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "abaea92a-90b2-4008-a296-fd16e0e1fa23")
 		(property "Reference" "Y2"
@@ -18809,71 +18701,6 @@
 			(project ""
 				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
 					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 193.04 267.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad3d1afc-16dc-4da3-b6e5-56a9541029ad")
-		(property "Reference" "#PWR015"
-			(at 193.04 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.802 271.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f726040d-cfe0-4f81-9ef2-9f41d6517e81")
-		)
-		(instances
-			(project "PyBoard"
-				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -20259,9 +20086,9 @@
 		(at 171.45 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "d867fbb6-4c41-4db4-ac02-ea06500dfbe9")
 		(property "Reference" "C9"
 			(at 171.704 223.012 0)
@@ -20855,7 +20682,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "ee494417-e76f-44d7-8e35-ba9fa0dd281b")
 		(property "Reference" "C22"

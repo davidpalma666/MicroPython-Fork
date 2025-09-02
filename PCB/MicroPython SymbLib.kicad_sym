@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PyBoard FootprintLib:LQFN-12-3x3mm_P0.65mm"
+		(property "Footprint" "MicroPython FootprintLib:LQFN-12-3x3mm_P0.65mm"
 			(at 2.286 -18.542 0)
 			(effects
 				(font
@@ -1797,7 +1797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PyBoard FootprintLib:47571-0001_MOL"
+		(property "Footprint" "MicroPython FootprintLib:47571-0001_MOL"
 			(at 1.524 8.382 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-26324371476853417
+26324371476853876
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69117,6 +69117,27 @@ Yellow 5381 Series LED
 0
 2
 2
+MicroPython FootprintLib
+47571-0001_MOL
+
+475710001 
+0
+13
+13
+MicroPython FootprintLib
+LQFN-12-3x3mm_P0.65mm
+
+LQFN NoLead
+0
+12
+12
+MicroPython FootprintLib
+XTAL_ECS-.327-12.5-17X-C-TR
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -92245,27 +92266,6 @@ Potentiometer vertical vishay
 0
 3
 3
-PyBoard FootprintLib
-47571-0001_MOL
-
-475710001 
-0
-13
-13
-PyBoard FootprintLib
-LQFN-12-3x3mm_P0.65mm
-
-LQFN NoLead
-0
-12
-12
-PyBoard FootprintLib
-XTAL_ECS-.327-12.5-17X-C-TR
-
-
-0
-4
-4
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

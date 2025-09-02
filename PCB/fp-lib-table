@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "PyBoard FootprintLib")(type "KiCad")(uri "${KIPRJMOD}/PyBoard FootprintLib")(options "")(descr ""))
+  (lib (name "MicroPython FootprintLib")(type "KiCad")(uri "${KIPRJMOD}/MicroPython FootprintLib")(options "")(descr ""))
 )

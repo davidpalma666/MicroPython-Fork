@@ -1,5 +1,10 @@
 
-
+**********************************************
+* 1 Setembro 2025
+*
+- criado repositório no Github
+- notas de dúvidas no próprio fich de Scm
+- em processo de routing
 
 
 **********************************************
