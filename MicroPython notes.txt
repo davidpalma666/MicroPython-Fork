@@ -1,4 +1,35 @@
 
+
+*************************************************
+*	@2 Setembro 2025
+
+- retirado cartão SD da PCB
+- acelerometro da PCB
+
+
+. "debug port that combines a JTAG-DP (5-pin) interface 
+and a SW-DP (2-pin) interface."
+
+
+- PINOS JTAG expostos para programar:
+	
+	. PA13/					shared with Red LED		PA13-RED-P3
+		/JTAG-TMS		JTMS-SWDIO
+		/SWDIO 		
+
+	. PA14/					shared with Green LED		PA14-GRN
+		/JTAG-CLK
+		/SWCLCK		
+	
+	. PB4/					shared with Blue LED		PB4-BLU
+		/JTAG-TRST
+
+	. PA15/					shared with Yellow LED
+		/JTAG-TDI 	(??)	
+
+
+
+
 **********************************************
 * 1 Setembro 2025
 *

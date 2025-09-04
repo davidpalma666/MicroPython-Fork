@@ -77,6 +77,10 @@
           ""
         ],
         [
+          "lib_footprint_mismatch|151907000|65004000|90affae6-a365-40d1-ae9c-b67f87c7ea04|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|157480000|60960000|bbb00397-ecd9-48b8-b8e5-d1651dde7355|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -538,7 +542,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../PyBoard.step",
@@ -572,12 +576,18 @@
         },
         {
           "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -589,13 +599,7 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
-        },
-        {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -604,18 +608,6 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
           "show": false
         },
         {
@@ -632,38 +624,20 @@
         },
         {
           "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet1",
-          "name": "Datasheet1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part No.",
-          "name": "Part No.",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "OEPSPN",
           "name": "OEPSPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "notes",
+          "name": "notes",
           "show": false
         }
       ],
@@ -671,8 +645,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Footprint"
+      "sort_asc": true,
+      "sort_field": "OEPSPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
