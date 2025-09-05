@@ -1,5 +1,23 @@
 
 
+
+*************************************************
+*	@4 Setembro 2025
+
+- feito ontem commit da versão desenhada; em espera de MPN-OEPSPN
+- na v.1.1 a versão utilizada no produto 
+	. há circuito de PFET & PWR-Switchin
+	. em versões anteriores & posteriores não
+	. este módulo circuito não faz sentido existir:
+		- não funcionaria para q devia fazer: alimetar pino VBatt qd houvesse PowerOFF & existisse Batt ligada
+	. em versões anteriores v.1.0 & posteriores v.4 este módulo não existe
+
+	=>> retirados módulos
+		. ficha J9 de onde adivinharia VBAT
+		. IC U3 de onde haveria controle energia (?)
+		. PFET Q1 no módulo controlo VBAT-Vin
+		
+		
 *************************************************
 *	@2 Setembro 2025
 
