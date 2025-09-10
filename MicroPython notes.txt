@@ -1,5 +1,19 @@
 
 
+	https://github.com/davidpalma666/MicroPython-Fork
+	
+
+
+**************************************************************************************************	
+
+
+	
+*************************************************
+*	@10 Setembro 2025	
+
+ - em espera de novos OEPS PN para finalizar BOM
+ 
+ 
 
 *************************************************
 *	@4 Setembro 2025
@@ -56,15 +70,32 @@ and a SW-DP (2-pin) interface."
 - em processo de routing
 
 
+
+
 **********************************************
 * 26 Junho 2025
 *
+>> MicroPython (antigo PyPhotometry)
+	
+		>> objectivo:
+		mudança na actual estrutura do projecto pyPhotometry
+		- consiste em 2 boards:
+			. pyPhotometry 2.0 (main board) + micropython PYB v.1.1 (inteface board) - open source projects
+		
+		- objectivo final:
+			. ter as 2 boards integradas numa só - passa a ser um nosso self-product
+		
+		- 1º passo:
+			. redesenhar a board de interface Mycropython PYB.v1.1
+				: nova board (OEPS) Microphyton v.1.x
+			. com esta nova interface-board produzida, verificar se a funcionalidade com a main continua OK
+			
+		- 2º passo
+			. redesenhar a main board pyPhotometry com a nova (OEPS) Mycrophyton v1.x já integrada (nome projecto/board??)
+				: verficar se o desenho com as 2 boards integradas continua OK
+		
 
->> mudança na estrutura do projecto actual PyPhotometry
 
-	2. Micro Python Board em kit - é passar o esquemático PDF para KiCAD
-
-	3. juntar depois a PyBoard v.1.1 com pyPhotometry (nossa PCB); rever antes com o Filipe
 
 
 
@@ -74,4 +105,3 @@ and a SW-DP (2-pin) interface."
 	https://micropython.org/download/PYBV11/
 	https://www.adafruit.com/product/2390
 	
-
