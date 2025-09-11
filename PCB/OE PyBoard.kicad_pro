@@ -77,7 +77,7 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|156207500|115012000|cba585b9-c4e0-4470-bb0c-05fb436e2155|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|156210000|115012000|cba585b9-c4e0-4470-bb0c-05fb436e2155|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -498,7 +498,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MicroPython.kicad_pro",
+    "filename": "OE PyBoard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -544,21 +544,21 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "annotate_start_num": 1,
+    "bom_export_filename": "production\\OE PyBoard BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": ";",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
-      "string_delimiter": "\""
+      "string_delimiter": ""
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -568,32 +568,32 @@
         },
         {
           "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "Reference",
+          "name": "Reference",
           "show": true
         },
         {
           "group_by": true,
           "label": "Value",
           "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         },
         {
@@ -630,15 +630,15 @@
           "group_by": false,
           "label": "notes",
           "name": "notes",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Datasheet"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
