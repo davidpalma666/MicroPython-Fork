@@ -11572,7 +11572,7 @@
 			(fill
 				(type none)
 			)
-			(uuid e74764f6-c0b6-4d9c-b527-5e062555c927)
+			(uuid 047e3035-feeb-4c7c-9c0f-f9a5e3556b04)
 		)
 	)
 	(symbol
@@ -12848,7 +12848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22895660-96cb-426d-a120-ab951ce239cc")
-		(property "Reference" "SW1"
+		(property "Reference" "RST1"
 			(at 185.674 233.426 0)
 			(effects
 				(font
@@ -12929,7 +12929,7 @@
 		(instances
 			(project "PyBoard"
 				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
-					(reference "SW1")
+					(reference "RST1")
 					(unit 1)
 				)
 			)
@@ -15225,7 +15225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48d0c1fe-064b-4c8a-b8e5-5e9b1378fd00")
-		(property "Reference" "SW2"
+		(property "Reference" "USR1"
 			(at 180.848 212.09 0)
 			(effects
 				(font
@@ -15304,7 +15304,7 @@
 		(instances
 			(project ""
 				(path "/b5377262-2fbf-4f54-aca8-87c57de8d98e"
-					(reference "SW2")
+					(reference "USR1")
 					(unit 1)
 				)
 			)
