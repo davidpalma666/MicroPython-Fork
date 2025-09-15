@@ -63,24 +63,7 @@
           "width": 0.21
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|128245000|115037000|3fbbbbb0-9395-40e1-b449-f801d3326a86|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|142748000|98296000|08d8931a-613a-4228-a88a-bfb2a40e6bfd|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|149733000|109728000|90affae6-a365-40d1-ae9c-b67f87c7ea04|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|156210000|115012000|cba585b9-c4e0-4470-bb0c-05fb436e2155|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -588,7 +571,7 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

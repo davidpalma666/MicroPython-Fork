@@ -11699,7 +11699,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 047e3035-feeb-4c7c-9c0f-f9a5e3556b04)
+			(uuid 364d48f3-c52c-4c36-a7c2-3997920745b2)
 		)
 	)
 	(symbol
@@ -15714,7 +15714,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 89.916 80.01 90)
 			(effects
 				(font
@@ -17938,7 +17938,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SAM1087-16-ND"
+		(property "MPN" "CES-116-01-T-S"
 			(at 379.73 198.12 0)
 			(effects
 				(font
@@ -20589,7 +20589,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 89.662 83.312 90)
 			(effects
 				(font
@@ -20730,7 +20730,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SAM1087-16-ND"
+		(property "MPN" "CES-116-01-T-S"
 			(at 328.93 198.12 0)
 			(effects
 				(font
