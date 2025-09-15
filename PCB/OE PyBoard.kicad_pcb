@@ -142,7 +142,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -8710,7 +8709,7 @@
 			(uuid "165314fb-ad70-4db5-9215-9be29910d4e5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3305B.step"
+		(model "${KIPRJMOD}/OE PyBoard FootprintLib/SW_SPST_TL3305B.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13166,7 +13165,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3c2f4fd5-0457-4fb0-adf8-160d3a17e16f")
+			(uuid "f7432cef-145f-4dde-b511-cfc0de100bdd")
 			(effects
 				(font
 					(size 0.6604 0.6604)
@@ -13179,7 +13178,7 @@
 			(at 0 3.2 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d7aad2fd-fa2e-4b23-b29a-1963366523b6")
+			(uuid "3557fc3a-f3e6-4033-a8af-b7b50916b54e")
 			(effects
 				(font
 					(size 1 1)
@@ -13192,7 +13191,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99b5d960-6d4d-447a-be8c-88199cc6fea2")
+			(uuid "c669d61e-2ab0-4e65-882a-85fa97ea1e50")
 			(effects
 				(font
 					(size 1 1)
@@ -13205,7 +13204,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1da2310b-432a-4f07-b8b3-8a26c47e9249")
+			(uuid "01d8c214-4424-4082-a63b-f683134eefe8")
 			(effects
 				(font
 					(size 1 1)
@@ -13636,7 +13635,7 @@
 			(uuid "7e3cb86b-90cf-447f-9f9f-c35dfc3c2c9d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3305B.step"
+		(model "${KIPRJMOD}/OE PyBoard FootprintLib/SW_SPST_TL3305B.step"
 			(offset
 				(xyz 0 0 0)
 			)
